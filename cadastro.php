@@ -33,7 +33,7 @@
     $endereço=$_POST['endereco'];
 
     $result =mysqli_query($conexao,"INSERT INTO usuários(nome,email,senha,telefone,genero,data_de_nascimento,cidade,estado,endereço) VALUES ('$nome','$email','$senha','$telefone','$genero','$data_de_nascimento','$cidade','$estado','$endereço')");
- 
+//adiciona os dados ao banco MySql
     }
  ?>
 <!DOCTYPE html>
