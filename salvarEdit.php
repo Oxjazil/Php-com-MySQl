@@ -2,7 +2,7 @@
     include_once('config.php');
 
     if (isset($_POST['update'])) {
-        $id = $_POST['id']; // Certifique-se de que o ID é passado pelo formulário
+        $id = $_POST['id'];
         $nome = $_POST['nome'];
         $email = $_POST['email'];
         $senha = $_POST['senha'];
@@ -11,7 +11,7 @@
         $data_de_nascimento = $_POST['data_de_nascimento'];
         $cidade = $_POST['cidade'];
         $estado = $_POST['estado'];
-        $endereco = $_POST['endereco']; // Verifique o nome exato do campo no banco
+        $endereco = $_POST['endereco'];
 
         $sqlUpdate = "UPDATE usuários SET nome='$nome', email='$email', senha='$senha', telefone='$telefone', genero='$genero', data_de_nascimento='$data_de_nascimento', cidade='$cidade', estado='$estado', endereço='$endereco' WHERE id='$id'";
 

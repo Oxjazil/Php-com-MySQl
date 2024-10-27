@@ -7,9 +7,5 @@
 
     // Estabelecer a conexão com o banco de dados
     $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
-    //code...
-    // Verificar se a conexão foi bem-sucedida
-   // if ($conexao->connect_error) {
-     //   die ("Falha na conexão: " . $conexao->connect_error);
-   // }
+
 ?>

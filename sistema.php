@@ -125,9 +125,6 @@ $result = $conexao->query($sql);
 
     function searchData(){
         window.location='sistema.php?search='+search.value;
-    }
-
-
-    
+    }    
 </script>
 </html>

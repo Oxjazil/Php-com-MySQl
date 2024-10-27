@@ -14,6 +14,8 @@
             $result = $conexao->query($sqlDelete);
         } 
     }
+
+    
 header("Location: sistema.php");
 
 ?>

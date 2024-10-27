@@ -32,7 +32,6 @@
         transition: 0.300ms;
     }
         </style>
-
 </head>
 <body>
     
